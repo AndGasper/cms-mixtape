@@ -1,0 +1,17 @@
+{
+  "name": "lighthouse-audit-plugin",
+  "version": "1.0.0",
+  "description": "Lighthouse Audit Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome-lighthouse-audit",
+    "render-to-html"
+  ],
+  "author": "Andres Gasper",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
