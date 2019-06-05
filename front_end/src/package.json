@@ -1,0 +1,21 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "Front-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Andres Gasper",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.33.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.2"
+  }
+}

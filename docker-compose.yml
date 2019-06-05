@@ -28,10 +28,13 @@ services:
   build_front_end:
     depends_on:
         - wordpress
-    image: node:8-alpine
+    build:
+      # Set the build context to front_end and use the listed dockerfile
+      context: ./front_end
+      dockerfile: Dockerfile
     env_file:
-      - ./Docker/env/build.env
+      - ./env/build.env
 
 volumes:
-    db_data: {}
+    db_data: {} 
  

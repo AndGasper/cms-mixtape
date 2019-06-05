@@ -1,0 +1,2 @@
+- Command: `docker-compose up`
+- Explanation: Starts wp, starts the build service
