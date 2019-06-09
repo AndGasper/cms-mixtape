@@ -1,0 +1,29 @@
+{
+    "name": "vendor-name/wp-back-end",
+    "description": "WordPress back-end listings",
+    "type": "project",
+    "authors": [{
+        "name": "AndGasper",
+        "email": "24193043+AndGasper@users.noreply.github.com"
+    }],
+    "repositories": [{
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress/wordpress",
+                "version": "5.2.1",
+                "url": "https://github.com/WordPress/WordPress.git",
+                "trunk-path": "trunk",
+                "branches-path": "branches",
+                "tags-path": "tags"
+            }
+        }
+    ],
+    "require": {
+        "php": "7.3.6",
+        "wordpress/wordpress": "5.2.1"
+    }
+}
