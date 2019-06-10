@@ -18,7 +18,16 @@
                 "url": "https://github.com/WordPress/WordPress.git",
                 "trunk-path": "trunk",
                 "branches-path": "branches",
-                "tags-path": "tags"
+                "tags-path": "tags",
+                "dist": {
+                    "url": "https://github.com/WordPress/WordPress/archive/5.2.1.tar.gz",
+                    "type": "tar"
+                },
+                "source": {
+                    "url": "https://develop.svn.wordpress.org/",
+                    "type": "git",
+                    "reference": "tags/5.2.1@45373"
+                }
             }
         }
     ],

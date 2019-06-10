@@ -1,0 +1,35 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "59eec95a5c3c8c503e8557a5bb529706",
+    "packages": [
+        {
+            "name": "wordpress/wordpress",
+            "version": "5.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://develop.svn.wordpress.org/",
+                "reference": "tags/5.2.1@45373"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "https://github.com/WordPress/WordPress/archive/5.2.1.tar.gz",
+                "reference": "tags/5.2.1@45373"
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "7.3.6"
+    },
+    "platform-dev": []
+}
