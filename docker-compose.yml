@@ -15,7 +15,6 @@ services:
 
   # WordPress Image
   wordpress:
-    image: wordpress:latest
     depends_on:
       - db
     restart: always

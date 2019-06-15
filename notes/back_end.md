@@ -15,3 +15,15 @@
 ```
 
 - [WordPress Add `composer.json` File](https://core.trac.wordpress.org/ticket/23912)
+
+
+Interestingly enough, VSCode is telling me the plugin is actually a symbolic link?
+
+```
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+```
+
+```
+E: Package 'php-cli' has no installation candidate
+E: Package 'php-mbstring' has no installation candidate
+```
