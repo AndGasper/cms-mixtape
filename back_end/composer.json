@@ -26,13 +26,18 @@
                 "source": {
                     "url": "https://develop.svn.wordpress.org/",
                     "type": "git",
-                    "reference": "tags/5.2.1@45373"
+                    "reference": "tags/5.2.1"
                 }
             }
+        },
+        {
+            "type": "path",
+            "url": "../wp-plugins/build-plugin"
         }
     ],
     "require": {
         "php": "7.3.6",
-        "wordpress/wordpress": "5.2.1"
+        "wordpress/wordpress": "5.2.1",
+        "build/wp-plugin": "1.0.0"
     }
 }

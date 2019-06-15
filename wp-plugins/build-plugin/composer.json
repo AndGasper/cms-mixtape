@@ -1,0 +1,15 @@
+{
+    "name": "build/wp-plugin",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Andres Gasper",
+            "email": "whatyearisthis@mail.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "version": "1.0.0",
+    "minimum-stability": "dev"
+}

@@ -19,12 +19,11 @@ services:
     depends_on:
       - db
     restart: always
-    # Volumes ?
-    environment:
-       WORDPRESS_DB_HOST: db:3306
-       WORDPRESS_DB_USER: wordpress
-       WORDPRESS_DB_PASSWORD: wordpress
-       WORDPRESS_DB_NAME: wordpress
+    build:
+      context: ./back_end
+      dockerfile: Dockerfile
+    env_file:
+      - ./env/back_end.env
 
   # Build Front-End
   build_front_end:
@@ -34,6 +33,7 @@ services:
       dockerfile: Dockerfile
     env_file:
       - ./env/build.env
+
   # Proxy layer
   nginx:
     image: nginx:latest
