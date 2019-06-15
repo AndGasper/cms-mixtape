@@ -31,13 +31,22 @@
             }
         },
         {
-            "type": "path",
-            "url": "../wp-plugins/build-plugin"
+            "type": "package",
+            "package": {
+                "name": "plugins/static-builder",
+                "version": "1.0.0",
+                "url": "https://github.com/AndGasper/wp-build-plugin.git",
+                "source": {
+                    "url": "https://github.com/AndGasper/wp-build-plugin.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
         }
     ],
     "require": {
         "php": "7.3.6",
         "wordpress/wordpress": "5.2.1",
-        "build/wp-plugin": "1.0.0"
+        "plugins/static-builder": "1.0.0"
     }
 }
